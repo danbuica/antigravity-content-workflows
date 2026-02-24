@@ -1,0 +1,12 @@
+{
+  "name": "motion-animations-exporter",
+  "version": "1.0.0",
+  "description": "Script to perfectly export HTML animations into transparent WebM videos.",
+  "main": "export-animation.js",
+  "scripts": {
+    "export": "node export-animation.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

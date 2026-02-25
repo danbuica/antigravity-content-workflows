@@ -24,6 +24,7 @@ This skill assists in generating high-quality, code-based motion animations, ens
 
 3.  **Apply Brand Aesthetics**:
     - **Base/Background**: Can be deep dark mode or `transparent` depending on the use case.
+    - **Size & Resolution**: CRITICAL: When creating animations with a `transparent` background (typically for video overlays), the animation MUST be designed to be close to full screen resolution (e.g., taking up most of a 1920x1080 viewport). Do not just center a small element in the middle of the screen; scale and layout the elements so they look impactful as a full-screen or prominent overlay.
     - **Accents/Highlights**: Use the user's primary `[Brand Color 1]` and secondary `[Brand Color 2]` for moving elements, glows, borders, and active states.
     - **Text**: Use readable contrast colors for primary text and secondary text.
     - **Typography**: Utilize the user's preferred Google Fonts `[Heading Font]` (headings) and `[Body Font]` (body text).
